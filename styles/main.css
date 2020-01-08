@@ -190,6 +190,11 @@ strong {
     padding-left: 40px;
     padding-right: 40px; } }
 
+@media screen and (min-width: 1260px) {
+  .section > * {
+    max-width: 940px;
+    margin: auto; } }
+
 .info {
   display: -webkit-box;
   display: -ms-flexbox;
