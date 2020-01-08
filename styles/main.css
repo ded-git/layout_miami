@@ -373,15 +373,20 @@ strong {
   text-transform: uppercase;
   line-height: 1; }
   .input::-webkit-input-placeholder {
-    color: inherit; }
+    color: inherit;
+    opacity: 0.6; }
   .input::-moz-placeholder {
-    color: inherit; }
+    color: inherit;
+    opacity: 0.6; }
   .input:-ms-input-placeholder {
-    color: inherit; }
+    color: inherit;
+    opacity: 0.6; }
   .input::-ms-input-placeholder {
-    color: inherit; }
+    color: inherit;
+    opacity: 0.6; }
   .input::placeholder {
-    color: inherit; }
+    color: inherit;
+    opacity: 0.6; }
   .input_textarea {
     height: 166px; }
 
