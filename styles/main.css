@@ -166,7 +166,7 @@ strong {
 .logo {
   width: 115px;
   height: 76px;
-  background-image: url("./images/logo.png");
+  background-image: url("../images/logo.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
