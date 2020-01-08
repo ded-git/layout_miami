@@ -4,7 +4,7 @@ h1 {
 
 .header {
   height: 765px;
-  background-image: url("/images/header.jpg");
+  background-image: url("../images/header.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -86,7 +86,7 @@ strong {
 
 .header {
   height: 765px;
-  background-image: url("/images/header.jpg");
+  background-image: url("../images/header.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -166,7 +166,7 @@ strong {
 .logo {
   width: 115px;
   height: 76px;
-  background-image: url("/images/logo.png");
+  background-image: url("./images/logo.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -250,7 +250,7 @@ strong {
     height: 13px;
     top: calc(100% + 4px);
     margin: auto;
-    background-image: url("/images/crown.svg"); }
+    background-image: url("./images/crown.svg"); }
 
 .photos {
   display: -webkit-box;
@@ -400,7 +400,7 @@ strong {
       position: absolute;
       width: 40px;
       height: 33px;
-      background-image: url("/images/quotes.svg");
+      background-image: url("./images/quotes.svg");
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
@@ -436,7 +436,7 @@ strong {
   position: sticky;
   bottom: 0;
   z-index: -1;
-  background-image: url("/images/footer.jpg");
+  background-image: url("../images/footer.jpg");
   background-size: cover;
   background-position: center; }
   .footer__logo {
