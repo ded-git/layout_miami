@@ -173,7 +173,7 @@ strong {
 
 .section {
   position: relative;
-  padding: 100px calc(50% - 470px);
+  padding: 100px 160px;
   background-color: #fff; }
   .section:nth-child(even) {
     background-color: #eee; }
@@ -250,34 +250,55 @@ strong {
     height: 13px;
     top: calc(100% + 4px);
     margin: auto;
-    background-image: url("./images/crown.svg"); }
+    background-image: url("../images/crown.svg"); }
 
 .photos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
   .photos__img {
     width: calc(50% - 10px);
+    margin: 0 10px;
     height: 260px;
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: center;
        object-position: center; }
 
+.photos_wide_left {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px; }
+
 .photos_wide_left .photos__img:first-child {
-  width: calc(67% - 10px); }
+  margin: 0;
+  width: 100%;
+  grid-column: 1 / span 2; }
 
 .photos_wide_left .photos__img:last-child {
-  width: calc(33% - 10px); }
+  margin: 0;
+  width: 100%; }
+
+.photos_wide_right {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px; }
 
 .photos_wide_right .photos__img:first-child {
-  width: calc(33% - 10px); }
+  width: 100%;
+  margin: 0; }
 
 .photos_wide_right .photos__img:last-child {
-  width: calc(67% - 10px); }
+  width: 100%;
+  grid-column: span 2 / 4;
+  margin: 0; }
 
 .gallery__caption {
   margin: 12px 0 35px; }
@@ -400,12 +421,12 @@ strong {
       position: absolute;
       width: 40px;
       height: 33px;
-      background-image: url("./images/quotes.svg");
+      background-image: url("../images/quotes.svg");
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
-      right: calc(100% + 6px);
-      bottom: calc(100% + 6px); }
+      left: -27px;
+      top: -40px; }
 
 .contact {
   display: -webkit-box;
