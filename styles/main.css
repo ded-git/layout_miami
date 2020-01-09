@@ -65,7 +65,8 @@ h6 {
   border-width: 0;
   font-family: "Ubuntu", sans-serif;
   font-size: 16px;
-  line-height: inherit; }
+  line-height: inherit;
+  scroll-behavior: smooth; }
 
 body {
   line-height: 1.5; }
@@ -77,6 +78,9 @@ strong {
 .section a:visited {
   color: #00aaef;
   text-decoration: none; }
+
+.section .for-scroll {
+  color: #000; }
 
 @font-face {
   font-family: "Roboto";
